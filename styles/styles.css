@@ -1,3 +1,24 @@
 body {
     background-color: #a9a2a9;
 }
+
+#main-title {
+    color: #231c23;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 50px;
+    margin: 20px auto auto auto;
+    text-align: center;
+}
+
+#recipes-list {
+    text-align: center;
+}
+
+.list-item {
+    display: inline-block;
+    margin: auto 20px auto 20px;
+    border: #fffeff solid 3px;
+    padding: 100px;
+}
