@@ -1,0 +1,14 @@
+.main-container {
+    background-color: rgb(0, 255, 213);
+    border: 5px solid rgb(182, 182, 182);
+}
+
+.title {
+    text-align: center;
+    color: white;
+}
+
+li {
+    color: white;
+    margin-bottom: 20px;
+}
