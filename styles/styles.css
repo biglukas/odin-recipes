@@ -8,7 +8,7 @@ body {
     font-weight: 800;
     font-style: normal;
     font-size: 50px;
-    margin: 20px auto auto auto;
+    margin: 20px auto 100px auto;
     text-align: center;
 }
 
@@ -18,7 +18,33 @@ body {
 
 .list-item {
     display: inline-block;
-    margin: auto 20px auto 20px;
+    margin: auto 80px auto auto;
     border: #fffeff solid 3px;
-    padding: 100px;
+    text-align: start;
+    width: 390px;
+    padding: 5px;
+}
+
+.recipes-titles {
+    font-family: "DM Sans", sans-serif;
+    color: #231c23;
+    font-weight: 900;
+    margin: 10px 50px -10px 5px;
+    font-size: 30px;
+}
+
+.recipes-links {
+    font-family: "DM Sans", sans-serif;
+    color: #231c23;
+    margin: 0px 0px 0px 5px;
+}
+
+.recipes-paragraph {
+    font-family: "DM Sans", sans-serif;
+    color: #231c23;
+    margin: 10px 5px 10px 5px;
+}
+
+.recipes-home-images {
+    width: 100%;
 }
