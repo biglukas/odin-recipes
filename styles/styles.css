@@ -48,3 +48,12 @@ body {
 .recipes-home-images {
     width: 100%;
 }
+
+.profile-icons {
+    width: 30px;
+}
+
+.profile-text
+.profile-icons {
+    display: inline-block;
+}
