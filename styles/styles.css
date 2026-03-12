@@ -62,6 +62,11 @@ body {
 .recipes-home-images {
     width: 100%;
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#gnocchi-image {
+    height: 297px;
 }
 
 .profile-icons {
