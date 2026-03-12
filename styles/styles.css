@@ -2,14 +2,24 @@ body {
     background-color: #a9a2a9;
 }
 
+.header {
+    margin: 40px 0px 40px 0px;
+}
+
 #main-title {
     color: #231c23;
     font-family: "DM Sans", sans-serif;
     font-weight: 800;
     font-style: normal;
     font-size: 50px;
-    margin: 20px auto 100px auto;
     text-align: center;
+}
+
+#main-paragraph {
+    color: #231c23;
+    font-family: "DM Sans", sans-serif;
+    text-align: center;
+    margin-top: -15px;
 }
 
 #recipes-list {
@@ -21,8 +31,12 @@ body {
     margin: auto 80px auto auto;
     border: #fffeff solid 3px;
     text-align: start;
-    width: 390px;
+    width: 490px;
     padding: 5px;
+}
+
+.list-content {
+    margin: 10px 40px 10px 40px;
 }
 
 .recipes-titles {
@@ -47,13 +61,21 @@ body {
 
 .recipes-home-images {
     width: 100%;
+    margin-top: 20px;
 }
 
 .profile-icons {
     width: 30px;
 }
 
-.profile-text
+.profile-text {
+    font-family: "DM Sans", sans-serif;
+    color: #231c23;
+}
+
+.profile-text,
 .profile-icons {
+    margin: 0px 0px 0px 5px;
     display: inline-block;
+    vertical-align: middle;
 }
