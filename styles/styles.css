@@ -3,7 +3,7 @@ body {
 }
 
 .header {
-    margin: 40px 0px 40px 0px;
+    margin: 40px 0px 100px 0px;
 }
 
 #main-title {
@@ -83,4 +83,41 @@ body {
     margin: 0px 0px 0px 5px;
     display: inline-block;
     vertical-align: middle;
+}
+
+.recipes-inside-container {
+    width: 600px;
+    border: solid #fffeff 3px;
+    margin: 35px auto 35px auto;
+    font-family: "DM Sans", sans-serif;
+    color: #231c23;
+}
+
+.recipes-inside-container-content {
+    margin: 0px 20px 20px 20px;
+}
+
+.recipes-inside-titles {
+    font-family: "DM Sans", sans-serif;
+    color: #231c23;
+    font-weight: 900;
+    margin-bottom: -5px;
+}
+
+.profile-text-inside-recipe,
+.profile-picture-inside-recipe {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.profile-picture-inside-recipe {
+    width: 30px;
+}
+
+.recipes-inside-images {
+    margin-top: 25px;
+}
+
+.home-links {
+    color: #231c23;
 }
